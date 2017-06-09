@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         
         tipPercentage.text = String(format: "%.0f",percentageSlider.value) //format: "%.0f", -- MAKE IT INTEGER
         if let num = Double(billAmountTextField.text!) {
-            TipAmount.text = String  (format: "%.3f",num * Double(percentageSlider.value / 100))
+            TipAmount.text = String  (format: "%.2f",num * Double(percentageSlider.value / 100))
         }
         
         
