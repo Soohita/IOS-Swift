@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     var swipted = false
     
     
+   
+    
+    
     
     
     override func viewDidLoad() {
